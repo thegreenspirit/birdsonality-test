@@ -1,0 +1,21 @@
+.questionchoice {
+margin: 0;
+border: 0;
+padding: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+font-family: 'Trebuchet MS', Geneva, sans-serif;
+background-color: #F0F0F0;
+border-top: solid 1px #ffffff;
+border-bottom: solid 1px #d9dadc;
+font-size: 12px;
+text-align: left;
+}
+
+.questionchoice-title {
+	
+}
+
+.questionchoice-content {
+	width: 100%;
+}

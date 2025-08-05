@@ -1,0 +1,15 @@
+.zg_languageSelector {
+	z-index: 1011;
+	width: 500px;
+	height: 500px;
+	background-color: white;
+	position: absolute;
+	left: 100px;
+	right: 100px;
+}
+
+.zg_languageSelectorInfoBG {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}

@@ -1,0 +1,11 @@
+.zg_link {
+position: absolute;
+top: 522px;
+left: 119px;
+width: 83px;
+height: 33px;
+background-image: url('http://commondatastorage.googleapis.com/zefglobal/common/components/img/zef-logo-blue.png');
+background-repeat: no-repeat;
+cursor: pointer;
+background-position: -129px -2px;
+}

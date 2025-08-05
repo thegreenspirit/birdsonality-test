@@ -1,0 +1,15 @@
+.zg_allResults {
+	z-index: 1010;
+	width: 500px;
+	height: 600px;
+	background-color: white;
+	position: absolute;
+	left: 100px;
+	right: 100px;
+}
+
+.zg_allResultsResultList {
+	overflow: auto;
+	width: 400px;
+	height: 500px;
+}

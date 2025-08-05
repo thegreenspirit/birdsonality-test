@@ -1,0 +1,38 @@
+.zg_rewards {
+	z-index: 1000;
+	width: 100%;
+	height: 1000px;
+	background-color: white;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+}
+
+.zg_rewardsFriendList {
+	height: 400px;
+	width: 300px;
+	overflow: auto;
+	
+}
+
+.zg_rewardsFriends {
+	
+}
+
+.zg_rewardsFriend {
+	
+}
+
+.zg_rewardsFriendListClaim {
+	cursor: pointer;
+}
+
+.zg_rewardsFriendListSkip {
+	cursor: pointer;
+}
+
+.zg_rewardsBG {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}

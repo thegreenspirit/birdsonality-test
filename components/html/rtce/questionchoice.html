@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <script type="text/javascript">
+            function zg_addChoices(choices, selected) {
+                var choicesSplit = choices.split(',');
+                var selectedFound = false;
+                for(idx in choicesSplit) {
+                	if(typeof choicesSplit[idx] == 'function') {
+                		continue;
+                	}
+                    if(selected === 'choice_{id}_' + idx) {
+                    	selectedFound = true;
+                        zefJQuery('#{componentId}').append('<option value="choice_{id}_' + idx + '" selected="selected">'+ choicesSplit[idx]+'</option>');
+                    } else {
+                        zefJQuery('#{componentId}').append('<option value="choice_{id}_' + idx + '">'+ choicesSplit[idx]+'</option>');
+                    }
+                }
+                if({advancedUi}) {
+                	if(selectedFound == false && typeof selected != 'undefined' && selected != null && selected != '') {
+                		var option = zefJQuery('#{componentId}').prepend('<option ></option>');
+                		option.children().first().attr("selected", "selected");
+                	}
+                } else {
+                	if(selectedFound == false && typeof selected != 'undefined' && selected != null && selected != '') {
+                        var option = zefJQuery('#{componentId}').prepend('<option value="" selected="selected">' + selected + '</option>');
+                        option.children().first().attr("selected", "selected");
+                	}
+                }
+            }
+            zefJQuery(function(){
+                zg_addChoices('{choices}', '{defaultValue}');
+                if({advancedUi}) {
+                	zefJQuery('#{componentId}').select2({width: 'element', placeholder: '{defaultValue}'});
+                }
+            });
+        </script>
+        <div class="question questionchoice">
+        	<div class="questionchoice-title">{name}</div>
+        	<div class="questionchoice-content"><select id="{componentId}" class="questionchoice-choice" ></select></div>
+        </div>
+
+
+    </body>
+</html>

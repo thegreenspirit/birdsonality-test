@@ -1,0 +1,60 @@
+.zg_result {
+	position: relative;
+	height: 103px;
+margin: 0;
+border: 0;
+padding: 0;
+cursor: pointer;
+border: solid 1px #D7D7D8;
+border-left: none;
+border-top: none;
+background-color: white;
+}
+
+.zg_resultSelected .zg_result {
+	
+}
+
+.zg_resultMouveOver .zg_result {
+
+}
+
+.zg_resultImage {
+	position: absolute;
+	left: 0px;
+	top: 30px;
+}
+
+.zg_resultImageImg {
+}
+
+.zg_resultName {
+	position: absolute;
+    left: 50px;
+    top: 0px;
+}
+
+.zg_resultDescription {
+	position: absolute;
+    left: 50px;
+    top: 17px;
+}
+
+.zg_resultPrice {
+    position: absolute;
+    left: 50px;
+    top: 34px;
+}
+
+.zg_resultParty {
+    width: 200px;
+    color: #888585;
+    font-size: 12px;
+}
+
+.zg_resultHitPercent {
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    color: #4ba3f7;
+}

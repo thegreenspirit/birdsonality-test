@@ -1,0 +1,12 @@
+.zg_showAllTargets {
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.zg_showAllTargetsLink {
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	text-align: center;
+}

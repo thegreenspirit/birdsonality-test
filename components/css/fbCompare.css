@@ -1,0 +1,46 @@
+.zg_fbCompare {
+	z-index: 1000;
+	width: 100%;
+	height: 1000px;
+	background-color: white;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+}
+
+.zg_fbCompareFriendList {
+	height: 400px;
+	width: 300px;
+	overflow: auto;
+	
+}
+
+
+.zg_fbCompareFriends {
+	
+}
+
+.zg_fbCompareFriend {
+	
+}
+
+.zg_fbCompareFriend img {
+	float: left;
+}
+
+.zg_fbCompareFriend div {
+	float: right;
+	width: 100px;
+}
+
+.zg_fbCompareMouseoverPopup {
+	width: 250px;
+	height: 120px;
+	position: absolute;
+	background: #ddd;
+	z-index: 9999;
+}
+
+.zg_fbCompareFriendsGuesses {
+	overflow: auto;
+}

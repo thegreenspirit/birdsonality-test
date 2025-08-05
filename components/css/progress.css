@@ -1,0 +1,18 @@
+
+.zg_answeringProgress {
+	background-color: white;
+}
+
+.zg_answeringProgressTitle {
+	font-size: 16px;
+}
+
+.zg_answeringProgressImage {
+	float: left;
+	width: 150px;
+}
+
+.zg_answeringProgressContent {
+	float: right;
+	width: 150px;
+}

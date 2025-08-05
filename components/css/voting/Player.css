@@ -1,0 +1,41 @@
+.player {
+    font-family: 'Trebuchet MS', Geneva, sans-serif;    
+}
+
+.playerHeader {
+	width: 100%;
+	height: 85px;
+	background-image: url('http://commondatastorage.googleapis.com/zefglobal/common/components/img/title-top.png');
+	background-repeat: no-repeat;
+}
+
+.playerQuestions {
+    float: left;
+}
+
+.playerResults {
+    float: left;
+}
+
+.playerItem {
+    float: left;
+}
+
+.zef_item_1 {
+	width: 34%;
+}
+.zef_item_2 {
+	width: 33%;
+}
+.zef_item_3 {
+	width: 33%;
+}
+
+.playerFooter {
+	width: 100%;
+	height: 40px;
+	float: left;
+	background-position-y: 50%;
+	background-repeat: no-repeat;
+    background-image: url('http://commondatastorage.googleapis.com/zefglobal/common/components/img/info-bottom.png');
+}

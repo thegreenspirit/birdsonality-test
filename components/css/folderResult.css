@@ -1,0 +1,41 @@
+.zg_folderResult {
+	position: relative;
+	height: 65px;
+	background-color: white;
+}
+
+.zg_folderResultImage {
+	position: absolute;
+	left: 0px;
+	top: 30px;
+}
+
+.zg_folderResultImageImg {
+}
+
+.zg_folderResultName {
+	position: absolute;
+    left: 50px;
+    top: 0px;
+}
+
+.zg_folderResultDescription {
+	display: none;
+	position: absolute;
+    left: 50px;
+    top: 17px;
+}
+
+.zg_folderResultHitPercent {
+    position: absolute;
+    left: 150px;
+    top: 25px;
+}
+
+.zg_folderResultSelected {
+	background-color: gray;
+}
+
+.zg_folderResultfbLikeArea {
+	display: none;
+}

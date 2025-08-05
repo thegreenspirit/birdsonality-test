@@ -1,0 +1,92 @@
+
+.zg_resultsTitle {
+	font-family: sans-serif;
+	font-size: 14px;
+	vertical-align: middle;
+	background-color: none;
+background-image: url('http://commondatastorage.googleapis.com/zefglobal/common/components/img/resultlist-title.png');
+background-position: left center;
+background-repeat: no-repeat;
+height: 34px;
+width: 100%;
+	
+}
+
+.zg_resultsFolders {
+	cursor: pointer;
+	float: left;
+	padding-left: 3px;
+	padding-right: 3px;
+	height: 34px;
+	line-height: 34px;
+}
+
+.zg_resultsTargets {
+	cursor: pointer;
+	float: left;
+	padding-left: 3px;
+	padding-right: 3px;
+	height: 34px;
+	line-height: 34px;
+}
+
+.answer1d-input {
+width: 300px;
+}
+
+.zg_resultsTitle h3 {
+	border: 0;
+margin: 0;
+padding: 0;
+padding-left: 35px;
+font-size: 14px;
+font-variant: normal;
+font-style: normal;
+font-weight: bold;
+color: #404040;
+line-height: 34px;
+height: 34px;
+width: 150px;
+float: left;
+}
+
+.zg_resultsArea {
+overflow: auto;
+overflow-x: hidden;
+height: 501px;
+position: relative;
+}
+
+.resultListContainer {
+	background-image: url('http://commondatastorage.googleapis.com/zefglobal/common/components/img/result-info-default.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.fb_edge_widget_with_comment span.fb_edge_comment_widget iframe.fb_ltr {
+display: none !important;
+}
+
+.zg_resultsSearch {
+	width: 100%;
+	display: none;
+}
+
+.zg_loadIndicatorLoading {
+	z-index: 9999; 
+	width: 348px; 
+	height: 596px; 
+	position: absolute; 
+	left: 395px; 
+	top: 0px; 
+	background-color: #fff; 
+	opacity: 0.7;
+	display: block;
+}
+
+.zg_resultText {
+	display: none;
+	position: absolute;
+	left: 150px;
+	top: 50px;
+}

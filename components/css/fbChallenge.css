@@ -1,0 +1,80 @@
+.zg_fbChallenge {
+	z-index: 1000;
+	width: 100%;
+	height: 1000px;
+	background-color: white;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+}
+
+.zg_fbChallengeFriendList {
+	height: 400px;
+	width: 300px;
+	overflow: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.zg_fbChallengeFriends {
+	
+}
+
+.zg_fbChallengeFriend {
+	
+}
+
+.zg_fbChallengeFriend img {
+	float: left;
+}
+
+.zg_fbChallengeFriend div {
+	float: right;
+	width: 100px;
+}
+
+.zg_fbChallengeFriendSelected {
+	background-color: #ddf;
+}
+
+.zg_fbChallengeFriendListChallenge {
+	cursor: pointer;
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	color: blue;
+	font-size: 22px;
+}
+
+.zg_fbChallengeFriendListSkip {
+	cursor: pointer;
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	color: blue;
+	font-size: 22px;
+}
+
+.zg_fbChallengeTitle {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 24px;
+}
+
+.zg_fbChallengeResultDescription {
+	padding-top: 15px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.zg_fbChallengeFriendsGuesses{
+	width: 300px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 10px;
+overflow: auto;
+}

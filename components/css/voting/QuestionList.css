@@ -1,0 +1,21 @@
+.playerQuestions {
+
+}
+
+.questionList {
+
+}
+
+.questionListContent {
+	overflow: auto;
+	overflow-x: hidden;
+	height: 500px;
+}
+
+.questionListFooter {
+	height: 35px;
+	width: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-image: url('http://commondatastorage.googleapis.com/zefglobal/common/components/img/zef-logo.png');
+}
